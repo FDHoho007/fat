@@ -1,0 +1,3 @@
+[submodule "api/ldap"]
+	path = api/ldap
+	url = git@github.com:MyFDWeb/api-ldap.git

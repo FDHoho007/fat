@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^/fat/(|profile|new) index.html [L]
