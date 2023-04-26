@@ -18,7 +18,7 @@ function login() {
             const password = Swal.getPopup().querySelector('#password').value
             if (!username || !password)
                 Swal.showValidationMessage("Please enter username and password")
-            let authorization = btoa(LDAP_USER_BASE.replaceAll("%u", username) + ":" + password);
+            let authorization = btoa(LDAP_USER_DN.replaceAll("%u", username) + ":" + password);
             return await ldap("whoami", {}, authorization).then(() => {
                 return authorization;
             }).catch(() =>

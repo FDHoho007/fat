@@ -18,3 +18,16 @@ function ldap(action, parameters, authorization) {
     }));
 }
 
+function ldap_get_all_users() {
+    if(!isLoggedIn())
+        return login().then(ldap_get_all_users);
+    else
+        return ldap("search", {"base": LDAP_USER_BASE, "scope": "one", "filter": "(objectClass=fsinfoPerson)", "attributes": ["uid", "displayName", "givenName", "sn", "email", "memberOf"]}, getAuthorization());
+}
+
+function ldap_set_password(uid, password) {
+    if(!isLoggedIn())
+        return login().then(() => ldap_set_password(uid, password));
+    else
+        return ldap("passwd", {"user": uid, "password": password}, getAuthorization());
+}
