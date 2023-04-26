@@ -1,2 +1,4 @@
 RewriteEngine on
 RewriteRule ^/fat/(|profile|new) index.html [L]
+
+SetEnv ALLOW_ORIGINS fsinfo.fim.uni-passau.de
