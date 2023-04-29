@@ -1,0 +1,8 @@
+Hallo %name%,
+
+dein Fachschaftsaccount wurde soeben wieder reaktiviert.
+
+{{group}}
+
+Viele Grüße
+%self%

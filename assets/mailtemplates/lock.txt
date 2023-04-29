@@ -1,0 +1,17 @@
+Hallo %name%,
+
+{{reason}}
+
+Wir danken dir für deine Mitarbeit in der Fachschaft und hoffen, dass du
+bei uns Spaß hattest.
+Wir freuen uns natürlich, falls du irgendwann zurückkommen möchtest —
+dein Zugang kann leicht reaktiviert werden.
+
+Aktuell stehst du weiterhin auf der Offtopic-Mailingliste und nun auch
+auf der Ehemaligen-Mailingliste (z.B. für Einladungen zur
+Weihnachtsfeier).
+
+{{email}}
+
+Viele Grüße
+%self%

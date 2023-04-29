@@ -1,0 +1,20 @@
+Hallo %name%,
+
+wir heißen dich herzlich willkommen in der Fachschaft für Informatik und Mathematik.
+Soeben wurde dein persönlicher Fachschaftsaccount angelegt.
+Diesen benötigst du, um auf unsere Dienste wie z.B. Wiki, NextCloud, etc. zu zugreifen.
+Deine Zugangsdaten lauten wie folgt:
+*Benutzername*: %uid%
+*Passwort*: %password%
+
+Du kannst diese Zugangsdaten nun verwenden, um dich unter https://fsinfo.fim.uni-passau.de/apps anzumelden.
+Dort findest du eine Übersicht über all unsere Fachschaftsdienste.
+Außerdem findest du dort einen Link zu unserem Mattermost Space.
+Diesen musst du nur einmal verwenden, um Zugriff auf unsere Channels zu bekommen.
+
+Wir raten *DRINGENDS* dazu dein Passwort (und sonstige Infos) schnellstmöglich über unser Adressbuch (https://fsinfo.fim.uni-passau.de/addressbook) zu ändern.
+
+Bei Fragen kannst du uns jederzeit eine E-Mail an admins@fsinfo.fim.uni-passau.de senden.
+
+Viele Grüße
+%self%
